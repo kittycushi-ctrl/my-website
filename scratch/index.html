@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Kate – Personal Page</title>
+  <!-- No Bootstrap — scratch stylesheet only -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ── Navigation (on-page anchors + back link) ─────── -->
+  <!-- This nav uses on-page anchors as required -->
+  <nav class="page-nav" id="top">
+    <a class="back-link" href="../index.html">← Professional Site</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#interests">Interests</a>
+      <a href="#music">Music</a>
+      <a href="#brazil">Brazil</a>
+      <a href="#movies">Movies</a>
+      <a href="#hp">Harry Potter</a>
+      <a href="#video">Video</a>
+      <a href="#dashboard">Dashboard</a>
+    </div>
+  </nav>
+
+  <!-- ── Hero (div #2: .hero-div) ────────────────────── -->
+  <div class="hero-div">
+    <!-- Profile image — save your photo as ../images/profile.jpg -->
+    <img src="../images/profile.jpg" alt="Kate Cushing" class="hero-profile-img">
+    <h1 class="hero-title">Hey, I'm Kate! ✨</h1>
+    <p class="hero-subtitle">Student &nbsp;·&nbsp; Musician &nbsp;·&nbsp; Brazil Returned Missionary &nbsp;·&nbsp; HP Enthusiast</p>
+    <p class="hero-subtitle" style="margin-top: 8px;">
+      <a href="#about" class="anchor-link">↓ Learn more about me</a>
+    </p>
+  </div>
+
+  <!-- ── Main content wrapper (div #3: .content-wrapper) ── -->
+  <div class="content-wrapper">
+
+    <!-- ── About Me ──────────────────────────────────── -->
+    <section class="page-section fade-in-section" id="about">
+      <h2 class="section-heading">A Bit About Me 🙋‍♀️</h2>
+      <div class="warm-card">
+        <p>
+          I'm a student at <strong>BYU in Provo, Utah</strong> 🎓 — I've been here for about six months and I love it!
+          Before BYU I served a full-time LDS mission in <strong>Brazil</strong> for a year and a half,
+          which was one of the most life-changing experiences I could have asked for.
+          I came back speaking fluent Portuguese and with a deep love for Brazilian culture 🇧🇷
+        </p>
+        <p>
+          When I'm not studying, you'll find me playing <strong>guitar or piano</strong> 🎸🎹,
+          watching movies with my family at our favorite theater,
+          doing <strong>family history</strong> research for my church,
+          or rereading Harry Potter for the hundredth time 📚⚡
+        </p>
+        <p>
+          My room also has this awesome <em>collage</em> of photos from my life and old LIFE magazine issues.
+          It's like a visual scrapbook of everything I love — music, travel, family, and memories.
+        </p>
+      </div>
+
+      <!-- Life-magazine-style photo collage -->
+      <div class="life-collage">
+        <div class="life-tile">🎸</div>
+        <div class="life-tile">🌴</div>
+        <div class="life-tile">🎬</div>
+        <div class="life-tile">📸</div>
+        <div class="life-tile">🇧🇷</div>
+        <div class="life-tile">🎹</div>
+        <div class="life-tile">⚡</div>
+        <div class="life-tile">❤️</div>
+      </div>
+      <p style="text-align:center; font-size:0.85rem; color:#9c7a5c; margin-top:6px;">
+        My room collage — snippets of life, music, travel, and magic ✨
+      </p>
+    </section>
+
+    <!-- ── Interests (nested list: ordered → unordered) ── -->
+    <section class="page-section fade-in-section" id="interests">
+      <h2 class="section-heading">Things I Love 💛</h2>
+      <div class="warm-card">
+        <!-- REQUIRED: unordered list embedded inside an ordered list -->
+        <ol class="my-ordered-list">
+          <li>
+            <strong>Music 🎵</strong>
+            <ul class="my-unordered-list">
+              <li>Playing guitar — acoustic and some electric</li>
+              <li>Playing piano — self-taught melodies and hymns</li>
+              <li>Listening to basically every genre</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Languages &amp; Travel 🌍</strong>
+            <ul class="my-unordered-list">
+              <li>Portuguese — fully fluent after 18 months in Brazil</li>
+              <li>Spanish — actively learning (Portuguese helps a lot!)</li>
+              <li>Experiencing new cultures and foods</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Harry Potter ⚡</strong>
+            <ul class="my-unordered-list">
+              <li>All 7 books — read multiple times</li>
+              <li>All 8 movies — I can quote most of them</li>
+              <li>Pottermore sorting, wizarding lore, behind-the-scenes trivia</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Family &amp; Community 🏠</strong>
+            <ul class="my-unordered-list">
+              <li>Movie nights at the SCERA Center or at home</li>
+              <li>Family history research and indexing at church</li>
+              <li>Keeping my photo collage updated with new memories</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ── Music ─────────────────────────────────────── -->
+    <section class="page-section fade-in-section" id="music">
+      <h2 class="section-heading">Music 🎸🎹</h2>
+      <!-- Two-column layout (div #4: .two-col-div) -->
+      <div class="two-col-div">
+        <div class="warm-card" style="border-left-color: #D4A853;">
+          <h3>🎸 Guitar</h3>
+          <p>
+            Guitar is my go-to when I need to decompress or express something I can't find words for.
+            I love strumming along to songs I grew up with and learning new ones on my own.
+          </p>
+        </div>
+        <div class="warm-card" style="border-left-color: #D4A853;">
+          <h3>🎹 Piano</h3>
+          <p>
+            Piano has a different energy — more deliberate, more emotional.
+            Playing hymns on the piano is one of my favorite ways to feel grounded and at peace.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Brazil ─────────────────────────────────────── -->
+    <section class="page-section fade-in-section" id="brazil">
+      <h2 class="section-heading">My Time in Brazil 🇧🇷</h2>
+      <div class="two-col-div">
+        <div class="warm-card">
+          <p>
+            For 18 months, Brazil was home. I served as a full-time missionary across different regions,
+            working with communities, teaching, and serving in whatever way I could.
+          </p>
+          <p>
+            I became fully fluent in Portuguese — something I'm incredibly proud of — and gained
+            a deep appreciation for the warmth, music, food, and faith of the Brazilian people.
+          </p>
+          <p>
+            I now speak conversational Spanish too, which comes more easily thanks to the
+            Portuguese foundation. Brazil gave me the world. 🌎
+          </p>
+          <p style="margin-top:16px;">
+            <a class="hp-link-btn" href="https://www.britannica.com/topic/flag-of-Brazil" target="_blank">🏳️ About Brazil's Flag</a>
+            <a class="hp-link-btn" href="https://www.tripadvisor.com/AttractionProductReview-g303536-d17680279-Rio_Grande_do_Sul_City_Tour_by_Gramado_and_Canela-Gramado_State_of_Rio_Grande_do_S.html" target="_blank" style="margin-left:8px;">🌿 Rio Grande do Sul</a>
+          </p>
+        </div>
+        <div>
+          <!-- REQUIRED: image not from Bootstrap theme -->
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png"
+            alt="Flag of Brazil"
+            class="flag-img">
+          <p class="img-caption">The flag of Brazil — Ordem e Progresso 🇧🇷</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Movies ─────────────────────────────────────── -->
+    <section class="page-section fade-in-section" id="movies">
+      <h2 class="section-heading">Movies with My Family 🎬</h2>
+      <div class="warm-card">
+        <p>
+          Some of my favorite memories are simple: piling onto the couch (or squeezing into theater seats)
+          with my family to watch a movie. It doesn't matter what genre — a great story watched together
+          hits different.
+        </p>
+        <p>
+          One of our go-to spots in Utah is the
+          <a href="https://orem.us/scera-center-2/" target="_blank" class="anchor-link">
+            SCERA Center for the Arts
+          </a>
+          in Orem — an outdoor theater with a classic, community feel that I love.
+        </p>
+      </div>
+    </section>
+
+    <!-- ── Harry Potter ───────────────────────────────── -->
+    <section class="page-section fade-in-section" id="hp">
+      <h2 class="section-heading">Accio Harry Potter! ⚡🧙‍♀️</h2>
+      <div class="warm-card" style="border-left-color: #4B2080;">
+        <p>
+          Harry Potter is more than a series to me — it's a whole world I grew up in.
+          I've read all seven books multiple times, own the movies, and never miss a chance to
+          drag a friend into a conversation about Hogwarts houses or the best scenes in the films.
+        </p>
+        <p>(I'm not telling you my house. You'll have to figure it out.)</p>
+      </div>
+
+      <!-- HP emoji collage -->
+      <div class="hp-collage">
+        <div class="hp-tile">🧙‍♂️<span>The Boy Who Lived</span></div>
+        <div class="hp-tile">⚡<span>The Scar</span></div>
+        <div class="hp-tile">🦉<span>Hedwig</span></div>
+        <div class="hp-tile">🏰<span>Hogwarts</span></div>
+        <div class="hp-tile">🧹<span>Quidditch</span></div>
+        <div class="hp-tile">📚<span>The Books</span></div>
+      </div>
+
+      <!-- Links to HP resources the user provided -->
+      <div class="hp-links">
+        <a class="hp-link-btn" href="https://www.harrypotter.com/features/wholesome-behind-the-scenes-moments-from-the-harry-potter-films" target="_blank">🎬 Behind the Scenes</a>
+        <a class="hp-link-btn" href="https://www.slashfilm.com/995974/the-best-harry-potter-scenes-ranked/" target="_blank">🏆 Best Scenes Ranked</a>
+        <a class="hp-link-btn" href="https://collider.com/harry-potter-daniel-radcliffe-rewatchable-scenes-ranked/" target="_blank">🔄 Most Rewatchable</a>
+        <a class="hp-link-btn" href="https://ew.com/movies/best-harry-potter-scenes/" target="_blank">⭐ EW's Best Moments</a>
+        <a class="hp-link-btn" href="https://www.businessinsider.com/creative-ways-harry-potter-fans-can-celebrate-the-franchise-2020-4" target="_blank">🎉 Fan Celebrations</a>
+      </div>
+    </section>
+
+    <!-- ── YouTube Video ──────────────────────────────── -->
+    <section class="page-section fade-in-section" id="video">
+      <h2 class="section-heading">Watch This 🎥</h2>
+      <div class="warm-card">
+        <!-- REQUIRED: embedded YouTube video -->
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/GxtmK-8appI?si=defRanDSyamV5fUx"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Tableau Dashboard ──────────────────────────── -->
+    <section class="page-section fade-in-section" id="dashboard">
+      <h2 class="section-heading">⚽ FIFA World Cup Data</h2>
+      <p style="color:#5C3D2E; margin-bottom:16px;">
+        An interactive Tableau dashboard exploring FIFA World Cup history. Hover, click, and explore!
+      </p>
+      <!-- REQUIRED: live interactive embedded Tableau -->
+      <div class="tableau-wrapper">
+        <div class='tableauPlaceholder' id='viz1781571912455' style='position:relative'>
+          <noscript>
+            <a href='#'>
+              <img alt='World cup overview'
+                   src='https://public.tableau.com/static/images/FI/FIFAWorldCupStory_17812025938080/Worldcupoverview/1_rss.png'
+                   style='border:none'>
+            </a>
+          </noscript>
+          <object class='tableauViz' style='display:none;'>
+            <param name='host_url'           value='https%3A%2F%2Fpublic.tableau.com%2F'>
+            <param name='embed_code_version' value='3'>
+            <param name='site_root'          value=''>
+            <param name='name'               value='FIFAWorldCupStory_17812025938080/Worldcupoverview'>
+            <param name='tabs'               value='no'>
+            <param name='toolbar'            value='yes'>
+            <param name='static_image'       value='https://public.tableau.com/static/images/FI/FIFAWorldCupStory_17812025938080/Worldcupoverview/1.png'>
+            <param name='animate_transition' value='yes'>
+            <param name='display_static_image' value='yes'>
+            <param name='display_spinner'    value='yes'>
+            <param name='display_overlay'    value='yes'>
+            <param name='display_count'      value='yes'>
+            <param name='language'           value='en-US'>
+          </object>
+        </div>
+        <script type='text/javascript'>
+          var divElement  = document.getElementById('viz1781571912455');
+          var vizElement  = divElement.getElementsByTagName('object')[0];
+          vizElement.style.width  = '100%';
+          vizElement.style.height = '620px';
+          var scriptElement = document.createElement('script');
+          scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+      </div>
+    </section>
+
+    <!-- ── Back to top (on-page anchor link) ─────────── -->
+    <div style="text-align:center; padding: 30px 0 50px;">
+      <!-- REQUIRED: on-page anchor -->
+      <a href="#top" class="back-to-top">↑ Back to Top</a>
+    </div>
+
+  </div><!-- end .content-wrapper -->
+
+  <!-- ── Footer ─────────────────────────────────────── -->
+  <footer class="page-footer">
+    <p>
+      Made with ❤️ by Kate Cushing
+      &nbsp;|&nbsp;
+      <a href="../index.html">← Back to Professional Site</a>
+    </p>
+  </footer>
+
+</body>
+</html>
